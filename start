@@ -1,2 +1,3 @@
-jupyter trust Crop Yield Location Interactive.ipynb
-jupyter trust Crop Yield Regional Interactive.ipynb
+#!/bin/bash
+
+jupyter trust *.ipynb
