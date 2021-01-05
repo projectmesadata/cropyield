@@ -1,4 +1,5 @@
 # Crop Yield Data Pipeline
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/projectmesadata/cropyield/HEAD)
 
 This repository uses the Famine Land Data Assimilation System (FLDAS)* operated by the U.S. National Air and Space Administration. This data can then be used to explore the water status and related soil condition in a given area over time as an indicator of crop yields.
 
