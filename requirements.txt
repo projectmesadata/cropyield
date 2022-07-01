@@ -1,8 +1,8 @@
-bokeh==2.3.0
-netCDF4>=1.5.4
-pandas>=1.1.0
-numpy>=1.19.1
-PCSE>=5.4.2
-ipywidgets>=7.5.1
-jupyter-contrib-nbextensions>=0.5.1
-pyproj>=2.6.1.post1
+python==3.9
+bokeh>=2.4.3
+netCDF4>=1.6.0
+pandas>=1.4.3
+numpy>=1.23.0
+PCSE>=5.5.1
+ipywidgets>=7.7.1
+pyproj>=3.3.1
