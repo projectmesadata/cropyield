@@ -13,7 +13,7 @@ In an effort to make them more user friendly so users can focus on either explor
 A quick overview of each file is below.  
 
 ## Crop Yield Data Download 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/projectmesadata/cropyield/HEAD?urlpath=%2Fnotebooks%2FCrop%20Yield%20-%20Data%20Download%20(must%20run%20first)-Interactive.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/projectmesadata/cropyield/HEAD?urlpath=%2Flab%2FCrop%20Yield%20-%20Data%20Download%20(must%20run%20first)-Interactive.ipynb)
 
 
 This file retrieves the data. You will need to complete the following two steps to get to the data.    
@@ -31,12 +31,12 @@ This file retrieves the data. You will need to complete the following two steps 
 \* [More information about FLDAS](https://ldas.gsfc.nasa.gov/FLDAS/) 
 
 ## Crop Yield Location  
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/projectmesadata/cropyield/HEAD?urlpath=%2Fnotebooks%2FCrop%20Yield%20Location%20Interactive.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/projectmesadata/cropyield/HEAD?urlpath=%2Flab%2FCrop%20Yield%20Location%20Interactive.ipynb)
 
 This  file takes the downloaded data and allows the user to select a location within the desired area. From this data the scripts creates plots of that locations water satisfaction requirement index (WSRI) and allows the users to select different crop types based on the United Nations Food and Agricultural handbook to assess the maximal yields. It is important to point out that the algorithms used (described in more detail in the file) can only provide the maximal crop yields and does not account for sub-optimal farming techniques or socio-economic dynamics.
 
 ## Crop Yield Regional
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/projectmesadata/cropyield/HEAD?urlpath=%2Fnotebooks%2FCrop%20Yield%20Regional%20Interactive.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/projectmesadata/cropyield/HEAD?urlpath=%2Flab%2FCrop%20Yield%20Regional%20Interactive.ipynb)
 
 This files allows the user to either narrow the region of interest or see the whole region and get the WRSI for each latitude and longitude (as well as web Mercator coordinates). It plots the WRSI as a heat map over the region. Finally, this files allows the user to download the output as a csv file so users can easily feed into and ABM in order to have a more rigorous synthetic terrain for their models. 
 
